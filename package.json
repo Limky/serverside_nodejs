@@ -18,6 +18,11 @@
   "homepage": "https://github.com/Limky/serverside_nodejs#readme",
   "dependencies": {
     "express": "^4.15.2",
-    "underscore": "^1.8.3"
+    "js2xmlparser": "^3.0.0",
+    "mkdirp": "^0.5.1",
+    "underscore": "^1.8.3",
+    "xml": "^1.0.1",
+    "xml-writer": "^1.7.0",
+    "xmldom": "^0.1.27"
   }
 }
