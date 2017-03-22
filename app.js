@@ -21,6 +21,7 @@ app.use(bodyParser.json());
 app.post('/setXml',function(req ,res){
 //console.log('res body = ',req.body);
  writeXML(JSON.stringify(req.body));
+ console.log("Data recived from Kinect = ", req.body);
   res.send('Server received XML file.');
 });
 
